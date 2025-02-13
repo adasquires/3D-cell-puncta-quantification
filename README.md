@@ -3,11 +3,9 @@ A tool for quantifying 3-dimensional fluorescent images.
 
 Input: three channels...
 
-> 0: cell channel
-> 
-> 1: puncta1 channel
-> 
-> 2: puncta2 channel
+> - 0: cell channel
+> - 1: puncta1 channel
+> - 2: puncta2 channel
 
 Output: CSV file, including...
 
