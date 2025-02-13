@@ -19,14 +19,14 @@ In terminal, type `python 3D-cell-puncta-quantification/main.py`.
 After running, input `filename`.
 
 # Parameters
-in main.py
+in main.py:
  - `spacing` for microscope spacing `[z, y, x]`
 
-in segmentation.py
+in segmentation.py:
  - `sigma` for Gaussian filter
  - `width` for morphological erosion/dilation
 
-in quantification.py
+in quantification.py:
  - `threshold` for colocalization of puncta
  - `dist` for identifying puncta within cells
  - `puncta1_min` for filtering puncta
