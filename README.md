@@ -14,16 +14,16 @@ After running, input `filename`
 
 # Parameters
 in main.py
--`spacing` for microscope spacing `[z, y, x]`
+ - `spacing` for microscope spacing `[z, y, x]`
 
 in segmentation.py
--`sigma` for Gaussian filter
--`width` for morphological erosion/dilation
+ - `sigma` for Gaussian filter
+ - `width` for morphological erosion/dilation
 
 in quantification.py
--`threshold` for colocalization of puncta
--`dist` for identifying puncta within cells
--`puncta1_min` for filtering puncta
--`puncta1_max` for filtering puncta
--`cells_min` for filtering cells
--`cells_max` for filtering cells
+ - `threshold` for colocalization of puncta
+ - `dist` for identifying puncta within cells
+ - `puncta1_min` for filtering puncta
+ - `puncta1_max` for filtering puncta
+ - `cells_min` for filtering cells
+ - `cells_max` for filtering cells
