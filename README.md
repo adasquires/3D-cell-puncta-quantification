@@ -1,11 +1,17 @@
 # Overview
 A tool for quantifying 3-dimensional fluorescent images.
 
-Input: three channels:
+Input: three channels
 
 - 0: cell channel
-- 1: puncta channel
-- 2: puncta channel
+- 1: puncta1 channel
+- 2: puncta2 channel
+
+Output: CSV file including
+
+- average volume of puncta1 per cell.
+- average count of puncta1 per cell.
+- average colocalization (ratio, 1.0=perfect colocalization) of puncta1 and puncta2 per cell.
 
 # Running
 In terminal, type `python 3D-cell-puncta-quantification/main.py`
